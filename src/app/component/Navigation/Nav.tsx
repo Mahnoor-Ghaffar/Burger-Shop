@@ -45,8 +45,8 @@ const Nav = ({openNav}:Props) => {
 
             {/* Buttons */}
             <div className='flex items-center space-x-4'>
-              <button className='px-6 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950
-              transition-all duration-200 hover:bg-red-600 flex items-center rounded-md space-x-2 text-white'>
+              <button className='px-6 py-2 hidden sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950
+              transition-all duration-200 hover:bg-red-600 sm:flex items-center rounded-md space-x-2 text-white'>
                 <span>
                   <BiCycling className='w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]' />
                 </span>
